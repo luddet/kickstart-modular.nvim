@@ -3,6 +3,8 @@
 -- NOTE: You can change these options as you wish!
 --  For more options, you can see `:help option-list`
 
+vim.g.python3_host_prog = vim.fn.stdpath 'data' .. '/py3.12-venv/Scripts/python'
+
 -- Make line numbers default
 vim.opt.number = true
 -- You can also add relative line numbers, for help with jumping.
@@ -58,5 +60,7 @@ vim.opt.cursorline = true
 
 -- Minimal number of screen lines to keep above and below the cursor.
 vim.opt.scrolloff = 5
+
+vim.opt.tabstop = 4
 
 -- vim: ts=2 sts=2 sw=2 et
