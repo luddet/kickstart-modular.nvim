@@ -49,6 +49,6 @@ vim.api.nvim_create_autocmd('TextYankPost', {
 })
 
 -- Back to normal mode
-vim.keymap.set('i', 'kj', '<Esc><Esc>', { desc = 'Exit insert mode' })
+vim.keymap.set('i', 'kj', '<Esc>', { desc = 'Exit insert mode' })
 
 -- vim: ts=2 sts=2 sw=2 et
